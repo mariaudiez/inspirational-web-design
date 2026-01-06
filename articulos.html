@@ -2,36 +2,41 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Artículos · Editorial</title>
+    <title>Artículos</title>
+
+    <!-- Tipografías -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="assets/css/articulos.css" />
   </head>
-
   <body>
-    <main class="container">
-      <section class="articles-grid">
-        <article class="article-card" data-article="1">
-          <img src="https://ik.imagekit.io/mariaudiez/barrio%201.png" alt="" />
-          <h2>Diseño como lenguaje visual</h2>
-        </article>
+    <header class="header">
+      <h1>WORK</h1>
+    </header>
 
-        <article class="article-card" data-article="2">
-          <img src="https://ik.imagekit.io/mariaudiez/barrio%201.png" alt="" />
-          <h2>Inspiración en lo cotidiano</h2>
-        </article>
-
-        <article class="article-card" data-article="3">
-          <img src="https://ik.imagekit.io/mariaudiez/barrio%201.png" alt="" />
-          <h2>El futuro del diseño digital</h2>
-        </article>
-      </section>
+    <main class="gallery" id="grid">
+      <!-- Artículos en el JS -->
     </main>
 
-    <!-- MODAL -->
+    <!-- MODAL ARTÍCULO -->
     <div class="modal" id="modal">
-      <div class="modal-box">
-        <button class="close">×</button>
-        <div class="modal-content" id="modalContent"></div>
-      </div>
+      <article class="modal-article">
+        <button class="close">&times;</button>
+
+        <header class="article-header">
+          <h2 id="modal-title"></h2>
+          <h3 id="modal-subtitle"></h3>
+        </header>
+
+        <section class="article-body" id="modal-text"></section>
+
+        <footer class="article-footer">
+          <span id="modal-author"></span>
+        </footer>
+      </article>
     </div>
 
     <script src="script.js"></script>
