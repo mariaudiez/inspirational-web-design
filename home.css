@@ -1,0 +1,107 @@
+:root {
+    --font-body: "Inter", sans-serif;
+    --font-title: "Ballet", cursive;
+  
+    --color-text: #1a1a1a;
+    --color-muted: #e17cda;
+    --color-bg: #fafafa;
+    --color-accent: #000000;
+  
+    --max-width: 1100px;
+  
+    /* Opcionales para ajustar rápidamente la marca */
+    --brand-size-desktop: 2.25rem;   /* tamaño de “Archivo 5” en desktop */
+    --brand-size-mobile: 1.75rem;    /* tamaño en móvil */
+    --brand-letterspace: 0;          /* Ballet suele ir sin tracking extra */
+  }
+  
+  { margin: 0; padding: 0; box-sizing: border-box; }
+
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    color: #000000;
+    padding: 15px 30px;
+}
+
+header .logo {
+    font-family: "inter" sans-serif ;
+    color:#000000
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.section h1 {
+    font-family: 'Cursive', serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.color-generator {
+    margin-top: 30px;
+}
+
+#palette {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.color-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.gallery .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background: #d190ae;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+}
