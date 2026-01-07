@@ -1,3 +1,5 @@
+/*general*/
+
 :root {
   --font-body: "Inter", sans-serif;
   --font-title: "Ballet", cursive;
@@ -24,23 +26,83 @@
   font-style: normal;
 }
 
+/* Colores Style */
 * {
     margin: 0;
     box-sizing: border-box;
     font-weight: 300;
 }
 
-img {
-    width: 100%;
-}
-
 body {
-  background-color: #f6f5f2;
-  color: #111;
-  align-items: center;
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.7;
+  font-size: 16px;
 }
 
-header,
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Header */
+header {
+  padding: 2rem 3rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+nav h1 {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.color {
+  max-width: var(--max-width);
+  margin: 6rem auto;
+  padding: 0 2rem;
+}
+
+/* Intro */
+.color__header {
+  margin-bottom: 6rem;
+}
+
+.color__header h2 {
+  font-family: var(--font-title);
+  font-size: 4.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.color__intro {
+  max-width: 480px;
+  font-size: 1rem;
+  color: var(--color-muted);
+}
+
+/* Bloques */
+.block {
+  margin-bottom: 5rem;
+  max-width: 720px;
+}
+
+.block h3 {
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.block p {
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
 section {
     width: 80%;
     max-width: 1000px;
