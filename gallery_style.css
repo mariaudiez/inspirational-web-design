@@ -1,10 +1,49 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+:root {
+  --font-body: "Inter", sans-serif;
+  --font-title: "Ballet", cursive;
+
+  --color-text: #1a1a1a;
+  --color-muted: #e17cda;
+  --color-bg: #fafafa;
+  --color-accent: #000000;
+
+  --max-width: 1100px;
 }
 
-h1 {
+
+/* ================================
+   FOOTER
+================================ */
+footer {
+  padding: 3rem;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+
+
+
+/* ================================
+   HEADER / NAV
+================================ */
+header {
+  padding: 2rem 3rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+nav h1 {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+title {
     text-align: center;
     padding: 20px;
     color: #333;
@@ -32,3 +71,4 @@ h1 {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+
