@@ -1,6 +1,6 @@
 const articles = [
   {
-    title: "La materia como lenguaje",
+    title: "LA MATERIA COMO LENGUAJE",
     subtitle: "Notas sobre procesos escultóricos contemporáneos",
     author: "María López",
     cover:
@@ -59,148 +59,157 @@ const articles = [
   },
 
   {
-    title: "Archivo y memoria",
-    subtitle: "Prácticas de conservación inestables",
+    title: "EL COLOR COMO DECISIÓN POLÍTICA",
+    subtitle: "Más allá de la estética",
     author: "Lucía Martín",
     cover:
       "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     hero: "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     text: `
-      <p>El archivo ya no es un espacio cerrado ni definitivo.</p>
-      <p>Las obras funcionan como registros temporales de una acción.</p>
-      <p>La memoria se construye a través de capas, fragmentos y ausencias.</p>
-    `,
+      <p>El color nunca es neutro. Aunque a menudo se perciba como una elección estética, cada color arrastra significados culturales, históricos y emocionales que condicionan la lectura de una imagen. En diseño, elegir un color es siempre tomar una posición.</p>
+      <p>En los últimos años, muchas marcas han comenzado a replantear sus paletas cromáticas como parte de un discurso más amplio. Colores desaturados, tonos tierra o gamas apagadas responden a una necesidad de calma frente a la sobreestimulación visual constante.</p>
+      <p>Pero el color también puede ser disruptivo. Usado estratégicamente, tiene la capacidad de cuestionar normas, visibilizar conflictos o generar incomodidad. No se trata solo de armonía, sino de intención.</p>
+      <p>Pensar el color como una herramienta conceptual permite al diseñador construir narrativas más profundas, donde cada tono participa activamente en el mensaje, y no solo en su apariencia final.</p>
+      `,
   },
   {
-    title: "Archivo y memoria",
-    subtitle: "Prácticas de conservación inestables",
-    author: "Lucía Martín",
+    title: "MODA COMO SISTEMA VISUAL",
+    subtitle: "Cuando vestir también comunica",
+    author: "Andrea Ruiz",
     cover:
       "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     hero: "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     text: `
-      <p>El archivo ya no es un espacio cerrado ni definitivo.</p>
-      <p>Las obras funcionan como registros temporales de una acción.</p>
-      <p>La memoria se construye a través de capas, fragmentos y ausencias.</p>
-    `,
+      <p>La moda es uno de los lenguajes visuales más inmediatos y accesibles. Antes incluso de hablar, la ropa comunica identidad, pertenencia y posicionamiento. En este sentido, diseñar moda es diseñar mensajes.</p>
+      <p>Hoy, muchas prácticas creativas entienden la moda como un sistema visual completo: siluetas, tejidos, paletas cromáticas y referencias culturales se articulan como un todo coherente. El desfile se convierte en una experiencia visual que trasciende la prenda.</p>
+      <p>La relación entre moda y diseño gráfico es cada vez más estrecha. Tipografías, imágenes y conceptos editoriales se trasladan al cuerpo, borrando las fronteras entre disciplinas.</p>
+      <p>Vestir deja de ser solo una acción cotidiana para convertirse en un acto creativo consciente, donde cada elección dialoga con el contexto social y cultural en el que se inscribe.</p>
+      `,
   },
   {
-    title: "Archivo y memoria",
-    subtitle: "Prácticas de conservación inestables",
-    author: "Lucía Martín",
+    title: "ARCHIVO Y MEMORIA",
+    subtitle: "Diseñar desde lo que permanece ",
+    author: "Clara Hernández",
     cover:
       "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     hero: "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     text: `
-      <p>El archivo ya no es un espacio cerrado ni definitivo.</p>
-      <p>Las obras funcionan como registros temporales de una acción.</p>
-      <p>La memoria se construye a través de capas, fragmentos y ausencias.</p>
-    `,
+      <p>El archivo ha dejado de ser un espacio estático. En las prácticas creativas actuales, archivar no significa conservar intacto, sino reinterpretar, resignificar y activar el pasado desde el presente.</p>
+      <p>Diseñadores y artistas trabajan cada vez más con archivos personales, imágenes encontradas o materiales históricos, construyendo relatos fragmentados donde la memoria se presenta como algo inestable y mutable.</p>
+      <p>Este interés por el archivo responde a una necesidad de ralentizar, de mirar atrás en un momento dominado por la inmediatez. Diseñar desde la memoria implica aceptar la imperfección y la falta de certezas.</p>
+      <p>El archivo no es un final, sino un punto de partida. Un espacio vivo que permite generar nuevas narrativas visuales a partir de lo que ya existe.</p>
+      `,
   },
   {
-    title: "Archivo y memoria",
-    subtitle: "Prácticas de conservación inestables",
-    author: "Lucía Martín",
+    title: "EL SILENCIO VISUAL",
+    subtitle: "Diseñar espacios de calma",
+    author: "Marta Sánchez",
     cover:
       "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     hero: "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     text: `
-      <p>El archivo ya no es un espacio cerrado ni definitivo.</p>
-      <p>Las obras funcionan como registros temporales de una acción.</p>
-      <p>La memoria se construye a través de capas, fragmentos y ausencias.</p>
-    `,
+      <p>En un entorno saturado de estímulos visuales, el silencio se convierte en un recurso creativo poderoso. El diseño que deja espacio, que respira, invita a una lectura más atenta y consciente.</p>
+      <p>El minimalismo contemporáneo ya no busca la perfección formal, sino la reducción consciente. Eliminar lo innecesario para reforzar lo esencial se convierte en un acto de claridad conceptual.</p>
+      <p>Este tipo de diseño no es vacío, sino intencional. Cada elemento presente tiene un propósito claro y dialoga con el resto de la composición.</p>
+      <p>Diseñar el silencio es también una forma de respeto hacia el usuario, permitiéndole interpretar, detenerse y conectar con el mensaje sin imposiciones.</p>
+      `,
   },
   {
-    title: "Archivo y memoria",
-    subtitle: "Prácticas de conservación inestables",
-    author: "Lucía Martín",
+    title: "TIPOGRAFÍA COMO VOZ",
+    subtitle: "Cuando las letras hablan",
+    author: "Elena Navarro",
     cover:
       "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     hero: "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     text: `
-      <p>El archivo ya no es un espacio cerrado ni definitivo.</p>
-      <p>Las obras funcionan como registros temporales de una acción.</p>
-      <p>La memoria se construye a través de capas, fragmentos y ausencias.</p>
-    `,
+      <p>La tipografía no solo transmite palabras, también transmite tono, personalidad y contexto. Elegir una tipografía es decidir cómo suena un mensaje antes de ser leído.</p>
+      <p>En los últimos años, ha surgido un interés renovado por tipografías experimentales, variables y personalizadas, que permiten construir identidades visuales únicas y flexibles.</p>
+      <p>Las letras se estiran, se deforman, se fragmentan. La legibilidad ya no es el único objetivo; la expresividad gana protagonismo como herramienta narrativa.</p>
+      <p>Pensar la tipografía como voz implica entenderla como un elemento vivo, capaz de adaptarse, evolucionar y dialogar con otros lenguajes visuales.</p>
+      `,
   },
   {
-    title: "Archivo y memoria",
-    subtitle: "Prácticas de conservación inestables",
-    author: "Lucía Martín",
+    title: "LO IMPERFECTO COMO VALOR",
+    subtitle: "Estética del error",
+    author: "Paula Ortega",
     cover:
       "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     hero: "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     text: `
-      <p>El archivo ya no es un espacio cerrado ni definitivo.</p>
-      <p>Las obras funcionan como registros temporales de una acción.</p>
-      <p>La memoria se construye a través de capas, fragmentos y ausencias.</p>
-    `,
+      <p>Durante mucho tiempo, el diseño ha perseguido la perfección técnica. Sin embargo, cada vez más creadores reivindican el error, la imperfección y lo inacabado como parte esencial del proceso creativo.</p>
+      <p>Manchas, cortes, desajustes y texturas imperfectas introducen humanidad en un paisaje visual dominado por lo digital y lo pulido.</p>
+      <p>El error deja de ser un fallo para convertirse en una decisión estética consciente, capaz de generar identidad y autenticidad.</p>
+      <p>Aceptar lo imperfecto es aceptar el proceso, con todas sus dudas y desviaciones, como parte inseparable del resultado final.</p>
+      `,
   },
   {
-    title: "Archivo y memoria",
-    subtitle: "Prácticas de conservación inestables",
-    author: "Lucía Martín",
+    title: "DISEÑO Y TERRITORIO",
+    subtitle: "Crear desde el contexto",
+    author: "Irene Campos",
     cover:
       "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     hero: "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     text: `
-      <p>El archivo ya no es un espacio cerrado ni definitivo.</p>
-      <p>Las obras funcionan como registros temporales de una acción.</p>
-      <p>La memoria se construye a través de capas, fragmentos y ausencias.</p>
-    `,
+      <p>El diseño no ocurre en el vacío. Cada proyecto está atravesado por un contexto social, cultural y geográfico que influye directamente en su forma y significado.</p>
+      <p>Diseñar desde el territorio implica atender a los materiales locales, las tradiciones visuales y las narrativas propias de un lugar específico.</p>
+      <p>Esta aproximación permite generar proyectos más honestos y arraigados, alejados de estéticas globalizadas y repetitivas.</p>
+      <p>El territorio se convierte así en una fuente inagotable de referencias, capaz de enriquecer el discurso visual y dotarlo de profundidad.</p>
+      `,
   },
   {
-    title: "Archivo y memoria",
-    subtitle: "Prácticas de conservación inestables",
-    author: "Lucía Martín",
+    title: "IMAGEN Y RELATO",
+    subtitle: "Contar sin palabras",
+    author: "Laura Méndez",
     cover:
       "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     hero: "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     text: `
-      <p>El archivo ya no es un espacio cerrado ni definitivo.</p>
-      <p>Las obras funcionan como registros temporales de una acción.</p>
-      <p>La memoria se construye a través de capas, fragmentos y ausencias.</p>
-    `,
+      <p>La imagen tiene la capacidad de construir relatos sin necesidad de texto. A través de la composición, el color y la atmósfera, se pueden sugerir historias abiertas a la interpretación.</p>
+      <p>En diseño editorial y digital, la imagen funciona como un detonante emocional que precede a la lectura racional.</p>
+      <p>Este tipo de narrativas visuales no buscan respuestas cerradas, sino generar preguntas, invitar a la contemplación y activar la imaginación del espectador.</p>
+      <p>Diseñar imágenes es, en última instancia, diseñar experiencias de lectura visual.</p>
+      `,
   },
   {
-    title: "Archivo y memoria",
-    subtitle: "Prácticas de conservación inestables",
-    author: "Lucía Martín",
+    title: "PROCESO SOBRE RESULTADO",
+    subtitle: "Diseñar como práctica",
+    author: "Ana Beltrán",
     cover:
       "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     hero: "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     text: `
-      <p>El archivo ya no es un espacio cerrado ni definitivo.</p>
-      <p>Las obras funcionan como registros temporales de una acción.</p>
-      <p>La memoria se construye a través de capas, fragmentos y ausencias.</p>
+      <p>Cada vez más diseñadores entienden su trabajo como una práctica continua más que como una sucesión de resultados finales. El proceso se documenta, se muestra y se valora.</p>
+      <p>Bocetos, pruebas y errores se convierten en parte del discurso visual, aportando transparencia y honestidad al proyecto.</p>
+      <p>Este enfoque pone el acento en el aprendizaje y la exploración, alejándose de la obsesión por el acabado perfecto.</p>
+      <p>Diseñar se convierte así en una forma de pensamiento, una manera de relacionarse con el mundo a través de imágenes.</p>
     `,
   },
   {
-    title: "La materia como lenguaje",
-    subtitle: "Notas sobre procesos escultóricos contemporáneos",
-    author: "María López",
+    title: "EL FUTURO DE LA IMAGEN",
+    subtitle: "Crear en tiempos de saturación",
+    author: "Sofía Ramos",
     cover:
       "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     hero: "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     text: `
-      <p>La materia deja de ser un simple soporte para convertirse en un lenguaje en sí mismo.</p>
-      <p>Los procesos escultóricos contemporáneos entienden el material como un archivo de gestos.</p>
-      <p>El error, la repetición y la fragilidad forman parte del discurso visual.</p>
-      <p>El objeto final es solo una de las posibles materializaciones del proceso.</p>
+      <p>Vivimos rodeados de imágenes. Nunca antes se habían producido, compartido y consumido tantas. En este contexto, el reto del diseñador no es crear más, sino crear mejor.</p>
+      <p>El futuro de la imagen pasa por la intención, la coherencia y la responsabilidad visual. Cada imagen debe justificar su existencia dentro de un ecosistema saturado.</p>
+      <p>Frente a la velocidad, surge la necesidad de pausa. Frente a la cantidad, la selección consciente.</p>
+      <p>Diseñar en el presente implica repensar el valor de la imagen y su capacidad real para comunicar, emocionar y permanecer.</p>
     `,
   },
   {
-    title: "La materia como lenguaje",
-    subtitle: "Notas sobre procesos escultóricos contemporáneos",
-    author: "María López",
+    title: "EL RITMO EN EL DISEÑO",
+    subtitle: "Pensar la composición como tiempo",
+    author: "Beatriz Molina",
     cover:
       "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     hero: "https://ik.imagekit.io/mariaudiez/Thomas-Dillon_obra%202.jpg?updatedAt=1747173642713",
     text: `
-      <p>La materia deja de ser un simple soporte para convertirse en un lenguaje en sí mismo.</p>
-      <p>Los procesos escultóricos contemporáneos entienden el material como un archivo de gestos.</p>
-      <p>El error, la repetición y la fragilidad forman parte del discurso visual.</p>
-      <p>El objeto final es solo una de las posibles materializaciones del proceso.</p>
+      <p>El ritmo es uno de los elementos menos visibles pero más determinantes en cualquier composición visual. Más allá de la forma y el color, el ritmo organiza la experiencia de lectura, marcando pausas, aceleraciones y silencios dentro de una imagen o un sistema gráfico.</p>
+      <p>En diseño editorial y digital, el ritmo se construye a través de la repetición, la variación y el contraste. Márgenes, interlíneas, tamaños tipográficos y espacios en blanco actúan como compases que guían al ojo sin necesidad de indicaciones explícitas.</p>
+      <p>Pensar el diseño como una secuencia temporal permite crear composiciones más conscientes, donde cada elemento aparece en el momento justo. El usuario no solo ve, sino que recorre la pieza, avanzando de forma casi intuitiva.</p>
+      <p>Diseñar ritmo es diseñar experiencia. Es entender que una buena composición no se impone, sino que acompaña, dejando que el tiempo de lectura se adapte al contenido y no al revés.</p>
     `,
   },
 ];
