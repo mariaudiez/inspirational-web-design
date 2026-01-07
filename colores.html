@@ -25,20 +25,31 @@
     </header>
 
     <main>
-      <section class="about">
-        <header class="about__header">
+      <div class="color">
+        <header class="color__header">
           <h2>Colores · Archivo 5</h2>
-          <p class="about__intro">
-            Inspiración cromática, paletas dinámicas y exploración del color.
+          <p class="color__intro">
+            A través de <strong>Archivo 5</strong> en colaboración con ColorMagic puedes generar paletas de color para creaciones, exploraciones y proyectos.
           </p>
         </header>
-    <section><div id="contenedor">
-      <!-- Los colores se cargan aquí desde API-->
-    </div></section>
-    <div id="mas" onclick="fetchPalette()">
+        <article class="block">
+          <h3>Generador</h3>
+        <section id="contenedor">
+          <!-- Los colores se cargan aquí desde API-->
+        </section>
+      <div id="mas" onclick="fetchPalette()">
             <p id="info"></p>
             <i class="fa-solid fa-plus"></i>
         </div>
+        </article>
+        <article class="block">
+          <h3>5's favs</h3>
+          <p class="color__intro"> Paletas seleccionadas por el equipo de Archivo 5 </p>
+          
+          </p>
+        </article>
+      </div>  
+
 
   </body>
 </html>
