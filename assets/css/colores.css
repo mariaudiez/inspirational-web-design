@@ -1,0 +1,93 @@
+:root {
+  --font-body: "Inter", sans-serif;
+  --font-title: "Ballet", cursive;
+
+  --color-text: #1a1a1a;
+  --color-muted: #e17cda;
+  --color-bg: #fafafa;
+  --color-accent: #000000;
+
+  --max-width: 1100px;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ballet {
+  font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+  background-color: #f6f5f2;
+  color: #111;
+  align-items: center;
+}
+
+header,
+section {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    margin: 1rem 0;
+    font-weight: bold;
+    font-family: var(--font-title);
+}
+
+h3 {
+    font-weight: bold;
+}
+
+/* CONTENEDOR DE COLORES */
+#contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    width: 100%;
+    align-items: center;
+}
+
+#contenedor > figure {
+    width: 23%;
+    max-width: 300px;
+}
+
+#contenedor > figure > figcaption > * {
+    font-size: 1rem;
+}
+
+#mas {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+#mas > i {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    #contenedor > figure {
+        flex: 50%;
+    }
+}
