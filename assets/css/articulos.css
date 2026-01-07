@@ -26,8 +26,8 @@ body {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 70px 20px;
-  padding: 0 20px 120px;
-  max-width: 1300px;
+  padding: 0 10px 120px;
+  max-width: 1450px;
   margin: 0 auto;
 }
 
@@ -125,7 +125,7 @@ body {
   height: 90%;
   /* max-height: 85vh; */
   background: #fff;
-  padding: 80px 120px;
+  padding: 80px 60px;
   overflow-y: auto;
   position: relative;
   transform: translateY(30px);
@@ -144,15 +144,19 @@ body {
   background: none;
   border: none;
   cursor: pointer;
+  opacity: 0.6;
+  font-weight: 200;
 }
 
 /* ARTÍCULO INTERIOR */
 
 .article-header {
   max-width: 900px;
-  margin: 0 auto;
-  margin-left: 120px;
+  margin-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
 .article-header h2 {
   font-family: "Playfair Display", serif;
   font-size: 34px;
@@ -166,8 +170,10 @@ body {
 }
 
 .article-body {
-  max-width: 650px;
-  margin: 60px auto 0;
+  width: 100%;
+  max-width: 900px;
+  margin: 80px auto 0;
+  font-weight: 200;
 }
 
 .article-body p {
@@ -184,6 +190,33 @@ body {
   font-style: italic;
   max-width: 900px;
   opacity: 0.7;
+  margin-top: 80px;
+}
+
+/* .article-hero {
+  width: 100%;
+  height: 40%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin-bottom: 60px;
+  display: block;
+} */
+
+/* .modal-image {
+  width: calc(100% - 120px);
+  margin: 0 auto 60px;
+  display: block;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+} */
+
+.modal-image {
+  display: block;
+  width: 100%;
+  height: 40%;
+  margin: 0 auto 60px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 /* RESPONSIVE */
@@ -200,5 +233,124 @@ body {
 @media (max-width: 600px) {
   .editorial-grid {
     column-count: 1;
+  }
+}
+
+/* TABLET  */
+
+/* @media (max-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 20px;
+  }
+
+  .modal-article {
+    padding: 60px;
+  }
+
+  .modal-image {
+    width: 100%;
+  }
+
+  .article-header,
+  .article-footer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+} */
+
+/* @media (max-width: 1024px) {
+  .gallery {
+    gap: 40px 15px;
+    padding: 0 20px 100px;
+  }
+
+  .modal-article {
+    padding: 60px 60px;
+  }
+
+  .modal-image {
+    width: 100%;
+  }
+} */
+
+/* @media (max-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 15px;
+    padding: 0 20px 100px;
+  }
+} */
+
+/* MOVIL */
+
+/* @media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 15px;
+    padding: 0 15px 80px;
+  }
+
+  .card h4 {
+    font-size: 12px;
+  }
+
+  .modal-article {
+    width: 100%;
+    height: 100%;
+    padding: 40px 20px;
+  }
+
+  .modal-image {
+    aspect-ratio: 4 / 3;
+    margin-bottom: 40px;
+  }
+
+  .article-header h2 {
+    font-size: 26px;
+  }
+
+  .article-body {
+    max-width: 100%;
+  }
+} */
+
+@media (max-width: 600px) {
+  /* .card:nth-child(n) {
+    grid-column: X;
+  } */
+
+  .modal-article {
+    padding: 90px 20px 40px;
+  }
+
+  .close {
+    top: 25px;
+    right: 20px;
+    z-index: 20;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 15px 80px;
+  }
+
+  .card {
+    grid-column: auto !important;
+  }
+}
+
+/* TABLET */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px 15px;
+    padding: 0 20px 100px;
+  }
+
+  .card {
+    grid-column: unset;
   }
 }
