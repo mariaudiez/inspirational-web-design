@@ -1,77 +1,112 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archivo 5 - Creativos</title>
+    <title>Archivo 5</title>
     <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/png" href="media/logo archivo 5.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Ballet&display=swap" rel="stylesheet">
+</head><!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Archivo 5 · Creativos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <!-- HEADER -->
-    
-<header class="site-header">
-    <nav class="site-nav">
-      <h1 class="brand">
-        <a href="/" aria-label="Inicio · Archivo 5">ARCHIVO 5</a>
-      </h1>
-  
-      <ul class="menu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#articulos">Artículos</a></li>
-        <li><a href="#colors">Colors</a></li>
-        <li><a href="#galeria">Galería</a></li>
-      </ul>
-    </nav>
-  </header>
-  
+    <header>
+        <nav class="nav">
+            <a href="home.html" class="logo">
+                <img src="media/ARCHIVO5.png" alt="Archivo 5" />
+              </a>
+          <ul class="nav__menu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="articulos.html">Artículos</a></li>
+            <li><a href="colores.html">Colors</a></li>
+            <li><a href="galleria.html">Gallery</a></li>
+          </ul>
+        </nav>
+      </header>      
 
-    <!-- SECCIÓN ABOUT -->
-    <section id="about" class="section">
-        <h1>About · Archivo 5</h1>
-        <p>Inspiración seleccionada con criterio. Menos comercio, más intención.</p>
-        <h2>¿Qué es Archivo 5?</h2>
-        <p>Archivo 5 es una web de inspiración para creativos con formato blog...</p>
-    </section>
 
-    <!-- SECCIÓN ARTÍCULOS -->
-    <section id="articulos" class="section">
-        <h1>Artículos</h1>
-        <p>Explora contenido sobre diseño, creatividad y tendencias.</p>
-    </section>
-
-    <!-- SECCIÓN COLORS -->
-    <section id="colors" class="section">
-        <h1>Colores · Archivo 5</h1>
-        <p>A través de Archivo 5 en colaboración con ColorMagic puedes generar paletas de color para creaciones, exploraciones y proyectos.</p>
-        <div class="color-generator">
-            <h2>Generador</h2>
-            <div id="palette">
-                <!-- Colores generados dinámicamente -->
-            </div>
-            <button id="generateColors">Generar Paleta</button>
+  <main>
+    <div class="intro">
+        <p>Archivo 5 es un espacio digital dedicado a la inspiración creativa, concebido como un archivo editorial que selecciona y organiza referencias culturales y visuales con intención y criterio. Frente al ritmo acelerado y la saturación de estímulos que dominan las plataformas contemporáneas, este proyecto apuesta por una mirada más pausada, donde la calidad prevalece sobre la acumulación.
+        Nace como respuesta a un entorno en el que el consumo creativo se ha vuelto inmediato y desbordante. Redes sociales como Instagram, Pinterest o TikTok generan un flujo constante de imágenes difícil de procesar de forma consciente. Archivo 5 propone lo contrario: un lugar donde reducir el ruido visual, recuperar la calma y explorar contenidos de arte, diseño y creatividad desde una perspectiva más reflexiva y curada. </p>
+      </div>
+    <section class="categories">
+        <div class="category">
+          <a href="about.html">
+            <img src="media/about.png" alt="About">
+            <h3>About</h3>
+            <p>Conoce Archivo 5.</p>
+          </a>
         </div>
-    </section>
-
-    <!-- SECCIÓN GALERÍA -->
-    <section id="galeria" class="section gallery">
-        <h1>Galería</h1>
-        <div class="grid">
-            <img src="img1.jpg" alt="Diseño 1">
-            <img src="img2.jpg" alt="Diseño 2">
-            <img src="img3.jpg" alt="Diseño 3">
-            <img src="img4.jpg" alt="Diseño 4">
-            <img src="img5.jpg" alt="Diseño 5">
-            <img src="img6.jpg" alt="Diseño 6">
+      
+        <div class="category">
+          <a href="articulos.html">
+            <img src="media/articulos.webp" alt="Artículos">
+            <h3>Artículos</h3>
+            <p>Selección editorial de ideas, análisis y cultura visual.</p>
+          </a>
         </div>
-    </section>
+      
+        <div class="category">
+          <a href="colores.html">
+            <img src="media/colors.jpeg" alt="Colors">
+            <h3>Colors</h3>
+            <p>Paletas, tonos y combinaciones para inspirar tus proyectos.</p>
+          </a>
+        </div>
+      
+        <div class="category">
+          <a href="galleria.html">
+            <img src="media/geleria.png" alt="Gallery">
+            <h3>Gallery</h3>
+            <p>Una colección visual curada para mentes creativas.</p>
+          </a>
+        </div>
+      </section>
+      
+  </main>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2026 Archivo 5 · Creativos</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <footer class="footer">
+    <div class="footer__content">
+  
+      <div class="footer__col">
+        <h4>Archivo 5</h4>
+        <p>Inspiración seleccionada con criterio.</p>
+      </div>
+  
+      <div class="footer__col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="articulos.html">Artículos</a></li>
+          <li><a href="colores.html">Colors</a></li>
+          <li><a href="galleria.html">Gallery</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer__col">
+        <h4>Redes</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">Behance</a></li>
+        </ul>
+      </div>
+  
+    </div>
+  
+    <div class="footer__bottom">
+      <p>&copy; 2026 · Archivo 5</p>
+    </div>
+  </footer>
+  
 </body>
 </html>
