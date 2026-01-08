@@ -188,6 +188,24 @@
     font-size: 0.8rem;
     color: #000000;
   }
+  .social {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .social a img {
+    width: 28px;
+    height: 28px;
+    opacity: 0.9;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+  
+  .social a:hover img {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  
   
   /* RESPONSIVE */
   @media (max-width: 900px) {
