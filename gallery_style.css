@@ -1,0 +1,137 @@
+:root {
+  --font-body: "Inter", sans-serif;
+  --font-title: "Ballet", cursive;
+
+  --color-text: #1a1a1a;
+  --color-muted: #e17cda;
+  --color-bg: #fafafa;
+  --color-accent: #000000;
+
+  --max-width: 1100px;
+}
+
+
+/* ================================
+   FOOTER
+================================ */
+footer {
+  padding: 3rem;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+
+
+
+/* ================================
+   HEADER / NAV
+================================ */
+header {
+  padding: 2rem 3rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+nav h1 {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* ================================
+   RESET BÁSICO
+================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================================
+   BASE
+================================ */
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ================================
+   ABOUT SECTION
+================================ */
+.about {
+  max-width: var(--max-width);
+  margin: 6rem auto;
+  padding: 0 2rem;
+}
+
+/* Intro */
+.about__header {
+  margin-bottom: 6rem;
+}
+
+.about__header h2 {
+  font-family: var(--font-title);
+  font-size: 4.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.about__intro {
+  max-width: 480px;
+  font-size: 1rem;
+  color: var(--color-muted);
+}
+
+/* ================================
+   RESPONSIVE
+================================ */
+@media (max-width: 768px) {
+  .about {
+    margin: 4rem auto;
+  }
+
+  .about__header h2 {
+    font-size: 3.2rem;
+  }
+
+  .about__block h3 {
+    font-size: 2.4rem;
+  }
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 15px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
