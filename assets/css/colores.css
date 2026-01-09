@@ -153,3 +153,36 @@ h3 {
         flex: 50%;
     }
 }
+/*PALETAS FAVS*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.palette {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* make five palettes fit per row accounting for 4 gaps of 1rem */
+  flex: 0 0 calc((100% - 4rem) / 5);
+  max-width: calc((100% - 4rem) / 5);
+}
+.color-swatch {
+  width: 100%;
+  height: 90px;
+  border-radius: 6px;
+}
+.palette figcaption {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .palette {
+    flex: 0 0 calc((100% - 1rem) / 2);
+    max-width: calc((100% - 1rem) / 2);
+  }
+}
