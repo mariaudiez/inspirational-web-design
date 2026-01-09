@@ -43,10 +43,73 @@ nav h1 {
   font-weight: 500;
 }
 
-title {
-    text-align: center;
-    padding: 20px;
-    color: #333;
+/* ================================
+   RESET BÁSICO
+================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================================
+   BASE
+================================ */
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ================================
+   ABOUT SECTION
+================================ */
+.about {
+  max-width: var(--max-width);
+  margin: 6rem auto;
+  padding: 0 2rem;
+}
+
+/* Intro */
+.about__header {
+  margin-bottom: 6rem;
+}
+
+.about__header h2 {
+  font-family: var(--font-title);
+  font-size: 4.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.about__intro {
+  max-width: 480px;
+  font-size: 1rem;
+  color: var(--color-muted);
+}
+
+/* ================================
+   RESPONSIVE
+================================ */
+@media (max-width: 768px) {
+  .about {
+    margin: 4rem auto;
+  }
+
+  .about__header h2 {
+    font-size: 3.2rem;
+  }
+
+  .about__block h3 {
+    font-size: 2.4rem;
+  }
 }
 
 .gallery {
