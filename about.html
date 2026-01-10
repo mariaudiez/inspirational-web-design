@@ -4,121 +4,102 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About · Archivo 5</title>
-    <link rel="stylesheet" href="style.css" />
+
+    <!-- Tipografías -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"rel="stylesheet"/>
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/c3fd22b8e3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script_promises.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/colores.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/about.css" />
   </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-    rel="stylesheet"
-  />
-
-  <body>
     <header>
-      <nav>
-        <h1>Archivo 5</h1>
-        <!-- Menú de navegación -->
-      </nav>
-    </header>
+    <nav class="nav">
+      <a href="home.html" class="logo">
+        <img src="media/ARCHIVO5.png" alt="Archivo 5" />
+      </a>
+      <ul class="nav__menu">
+        <li><a href="about.html">About</a></li>
+        <li><a href="articulos.html">Artículos</a></li>
+        <li><a href="colores.html">Colors</a></li>
+        <li><a href="galleria.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
 
     <main>
-      <section class="about">
-        <header class="about__header">
-          <h2>About · Archivo 5</h2>
+      <!-- HERO ABOUT -->
+      <section class="about-hero">
+        <div class="container">
+          <!-- <h2>About</h2> -->
           <p class="about__intro">
             Inspiración seleccionada con criterio. Menos contenido, más
             intención.
           </p>
-        </header>
+        </div>
+      </section>
 
-        <article class="about__block">
-          <h3>¿Qué es Archivo 5?</h3>
-          <p>
-            <strong>Archivo 5</strong> es una web de inspiración para creativos
-            con formato blog, concebida como un espacio editorial digital
-            dedicado a la selección y curaduría de contenidos culturales y
-            visuales. El proyecto reúne referencias relacionadas con el arte, el
-            diseño y la creatividad, presentadas de forma estructurada y
-            accesible.
-          </p>
-          <p>
-            Frente a la acumulación constante de contenido propia de muchas
-            plataformas digitales, Archivo 5 apuesta por una lógica editorial
-            basada en la calidad, el criterio y la pausa.
-          </p>
-        </article>
+      <!-- CONTENIDO -->
+      <section class="about-content">
+        <div class="container">
+          <article class="about__block">
+            <h3>¿Qué es Archivo 5?</h3>
+            <p>
+              <strong>Archivo 5</strong> es una web de inspiración para
+              creativos con formato blog, concebida como un espacio editorial
+              digital dedicado a la selección y curaduría de contenidos
+              culturales y visuales.
+            </p>
+            <p>
+              Frente a la acumulación constante de contenido propia de muchas
+              plataformas digitales, Archivo 5 apuesta por una lógica editorial
+              basada en la calidad, el criterio y la pausa.
+            </p>
+          </article>
 
-        <article class="about__block">
-          <h3>El origen del proyecto</h3>
-          <p>
-            El consumo actual de contenido creativo está marcado por la
-            sobreabundancia de estímulos. Redes sociales como Instagram,
-            Pinterest o TikTok generan un flujo continuo de imágenes e
-            información difícil de procesar de manera consciente.
-          </p>
-          <p>
-            Archivo 5 nace como respuesta a este escenario, proponiendo un
-            espacio alternativo que invita a reducir el ruido visual y a
-            recuperar una relación más calmada y reflexiva con los contenidos
-            creativos.
-          </p>
-        </article>
+          <article class="about__block alt">
+            <h3>El origen del proyecto</h3>
+            <p>
+              El consumo actual de contenido creativo está marcado por la
+              sobreabundancia de estímulos. Redes sociales como Instagram,
+              Pinterest o TikTok generan un flujo continuo de imágenes difícil
+              de procesar conscientemente.
+            </p>
+            <p>
+              Archivo 5 nace como respuesta a este escenario, proponiendo un
+              espacio alternativo que invita a reducir el ruido visual.
+            </p>
+          </article>
 
-        <article class="about__block">
-          <h3>Nuestra forma de curar el contenido</h3>
-          <p>
-            El contenido publicado en Archivo 5 no responde a algoritmos ni a
-            tendencias efímeras. Cada entrada forma parte de un proceso de
-            curaduría consciente, en el que se seleccionan cuidadosamente
-            artículos, libros, fotografías, exposiciones y proyectos creativos.
-          </p>
-          <p>
-            El archivo funciona como un espacio vivo, en constante
-            actualización, donde se prioriza la calidad frente a la cantidad
-            para ofrecer una experiencia de navegación más clara y
-            significativa.
-          </p>
-        </article>
+          <article class="about__block">
+            <h3>Nuestra forma de curar el contenido</h3>
+            <p>
+              El contenido publicado no responde a algoritmos ni tendencias
+              efímeras. Cada entrada forma parte de un proceso de curaduría
+              consciente.
+            </p>
+          </article>
 
-        <article class="about__block">
-          <h3>El colectivo</h3>
-          <p>Archivo 5 está formado por un colectivo de cinco creadoras:</p>
-          <ul class="about__list">
-            <li>Claudia</li>
-            <li>Kalei</li>
-            <li>María</li>
-            <li>Nerea</li>
-            <li>Nicole</li>
-          </ul>
-          <p>
-            El número cinco representa la diversidad de miradas y criterios que
-            conforman el archivo, así como el trabajo colaborativo que define el
-            proyecto.
-          </p>
-        </article>
-
-        <article class="about__block">
-          <h3>Un proyecto editorial y tecnológico</h3>
-          <p>
-            Archivo 5 ha sido desarrollado como parte de la asignatura
-            <strong>Diseño Web Avanzado</strong>, combinando una propuesta
-            editorial con una implementación técnica basada en estándares
-            actuales.
-          </p>
-          <p>
-            El portal obtiene su contenido a través de APIs externas y utiliza
-            HTML5 semántico, CSS3 y JavaScript, aplicando el paradigma
-            Responsive Web Design para garantizar su correcta visualización en
-            distintos dispositivos.
-          </p>
-        </article>
+          <article class="about__block alt">
+            <h3>El colectivo</h3>
+            <ul class="about__list">
+              <li>Claudia</li>
+              <li>Kalei</li>
+              <li>María</li>
+              <li>Nerea</li>
+              <li>Nicole</li>
+            </ul>
+          </article>
+        </div>
       </section>
     </main>
 

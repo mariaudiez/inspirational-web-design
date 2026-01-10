@@ -1,0 +1,169 @@
+/*general*/
+
+:root {
+  --font-body: "Inter", sans-serif;
+  --font-title: "Ballet", cursive;
+
+  --color-text: #1a1a1a;
+  --color-muted: #e17cda;
+  --color-bg: #fafafa;
+  --color-accent: #000000;
+
+  --max-width: 1100px;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ballet {
+  font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* HEADER */
+header {
+  padding: 2rem 3rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.logo img {
+  height: 2.5rem;
+  width: auto;
+  display: block;
+}
+
+.nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+/* NAVIGATION */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__menu li a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-muted);
+  letter-spacing: 0.05em;
+  transition: opacity 0.2s ease;
+}
+
+.nav__menu li a:hover {
+  opacity: 0.6;
+}
+
+/* BASE */
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.8;
+}
+
+/* HEADER */
+.site-header {
+  padding: 2rem 3rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+  height: 32px;
+}
+
+/* CONTAINER */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* HERO */
+.about-hero {
+  background-color: #e17cda;
+  padding: 6rem 0;
+}
+
+.about-hero h2 {
+  font-family: var(--font-title);
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.about__intro {
+  max-width: 100%; /* Ocupa todo el ancho disponible */
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #1a1a1a;
+}
+
+/* CONTENT */
+.about-content {
+  padding: 6rem 0;
+}
+
+.about__block {
+  max-width: 900px;
+  margin-bottom: 6rem;
+}
+
+.about__block.alt {
+  background-color: #f0cdde;
+  padding: 3rem;
+  border-radius: 8px;
+}
+
+.about__block h3 {
+  font-family: var(--font-title);
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.about__block p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+/* LIST */
+.about__list {
+  list-style: none;
+}
+
+.about__list li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+/* FOOTER */
+footer {
+  padding: 3rem;
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .about-hero h2 {
+    font-size: 3.5rem;
+  }
+
+  .about__block h3 {
+    font-size: 2.4rem;
+  }
+}
