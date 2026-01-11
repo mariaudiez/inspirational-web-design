@@ -17,6 +17,7 @@
     <script src="script_promises.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/colores.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   </head>
   <body>
 
@@ -53,38 +54,81 @@
         <article class="block">
           <h3>5's favs</h3>
           <p class="color__intro"> Paletas seleccionadas por el equipo de Archivo 5 </p>
+          <div class="main-carousel" data-flickity> 
           <main class="gallery" id="grid">
             <figure class="palette">
-              <div class="color-swatch" style="background-color: #264653;"></div>
-              <div class="color-swatch" style="background-color: #2A9D8F;"></div>
-              <div class="color-swatch" style="background-color: #E9C46A;"></div>
-              <div class="color-swatch" style="background-color: #F4A261;"></div>
-              <div class="color-swatch" style="background-color: #E76F51;"></div>
+              <div class="color-swatch" style="background-color: #780000;"></div>
+              <div class="color-swatch" style="background-color: #C1121F;"></div>
+              <div class="color-swatch" style="background-color: #FDF0D5;"></div>
+              <div class="color-swatch" style="background-color: #003049;"></div>
+              <div class="color-swatch" style="background-color: #669BBC;"></div>
+              <figcaption>Fiery Ocean</figcaption>
+            </figure>
+            <figure class="palette">
+              <div class="color-swatch" style="background-color: #000814;"></div>
+              <div class="color-swatch" style="background-color: #001D3D;"></div>
+              <div class="color-swatch" style="background-color: #003566;"></div>
+              <div class="color-swatch" style="background-color: #FFC300;"></div>
+              <div class="color-swatch" style="background-color: #FFD60A;"></div>
+              <figcaption>Golden Twilight</figcaption>
+            </figure>
+            <figure class="palette">
+              <div class="color-swatch" style="background-color: #6F1D1B;"></div>
+              <div class="color-swatch" style="background-color: #BB9457;"></div>
+              <div class="color-swatch" style="background-color: #432818;"></div>
+              <div class="color-swatch" style="background-color: #99582A;"></div>
+              <div class="color-swatch" style="background-color: #FFE6A7;"></div>
+              <figcaption>Autumn Harvest</figcaption>
+            </figure>
+            <figure class="palette">
+              <div class="color-swatch" style="background-color: #0D0A0B;"></div>
+              <div class="color-swatch" style="background-color: #454955;"></div>
+              <div class="color-swatch" style="background-color: #F3EFF5;"></div>
+              <div class="color-swatch" style="background-color: #72B01D;"></div>
+              <div class="color-swatch" style="background-color: #3F7D20;"></div>
+              <figcaption>Forest Whisper</figcaption>
+            </figure>
+            <figure class="palette">
+              <div class="color-swatch" style="background-color: #512D38;"></div>
+              <div class="color-swatch" style="background-color: #B27092;"></div>
+              <div class="color-swatch" style="background-color: #F4BFDB;"></div>
+              <div class="color-swatch" style="background-color: #FFE9F3;"></div>
+              <div class="color-swatch" style="background-color: #87BAAB;"></div>
+              <figcaption>Quartz Garden</figcaption>
+            </figure>
+          </main>
+          <main class="gallery" id="grid">
+            <figure class="palette">
+              <div class="color-swatch" style="background-color: #390099;"></div>
+              <div class="color-swatch" style="background-color: #9E0059;"></div>
+              <div class="color-swatch" style="background-color: #FF0054;"></div>
+              <div class="color-swatch" style="background-color: #FF5400;"></div>
+              <div class="color-swatch" style="background-color: #FFBD00;"></div>
               <figcaption>Sunset Bliss</figcaption>
             </figure>
             <figure class="palette">
-              <div class="color-swatch" style="background-color: #1B5E20;"></div>
-              <div class="color-swatch" style="background-color: #43A047;"></div>
-              <div class="color-swatch" style="background-color: #7CB342;"></div>
-              <div class="color-swatch" style="background-color: #8E24AA;"></div>
-              <div class="color-swatch" style="background-color: #6A1B9A;"></div>
-              <figcaption>Intense Veg</figcaption>
+              <div class="color-swatch" style="background-color: #0C0F0A;"></div>
+              <div class="color-swatch" style="background-color: #FF206E;"></div>
+              <div class="color-swatch" style="background-color: #FBFF12;"></div>
+              <div class="color-swatch" style="background-color: #41EAD4;"></div>
+              <div class="color-swatch" style="background-color: #FFFFFF;"></div>
+              <figcaption>Sharp Accents</figcaption>
             </figure>
             <figure class="palette">
-              <div class="color-swatch" style="background-color: #FFD166;"></div>
-              <div class="color-swatch" style="background-color: #EF476F;"></div>
-              <div class="color-swatch" style="background-color: #FFB703;"></div>
-              <div class="color-swatch" style="background-color: #FF6B35;"></div>
-              <div class="color-swatch" style="background-color: #9B3D00;"></div>
+              <div class="color-swatch" style="background-color: #ef476f;"></div>
+              <div class="color-swatch" style="background-color: #ffd166;"></div>
+              <div class="color-swatch" style="background-color: #06d6a0;"></div>
+              <div class="color-swatch" style="background-color: #118ab2;"></div>
+              <div class="color-swatch" style="background-color: #073b4c;"></div>
               <figcaption>Golden Hour</figcaption>
             </figure>
             <figure class="palette">
-              <div class="color-swatch" style="background-color: #0A1128;"></div>
-              <div class="color-swatch" style="background-color: #001F54;"></div>
-              <div class="color-swatch" style="background-color: #034078;"></div>
-              <div class="color-swatch" style="background-color: #1282A2;"></div>
-              <div class="color-swatch" style="background-color: #70E1F5;"></div>
-              <figcaption>Deep Blue</figcaption>
+              <div class="color-swatch" style="background-color: #9b5de5;"></div>
+              <div class="color-swatch" style="background-color: #f15bb5;"></div>
+              <div class="color-swatch" style="background-color: #fee440;"></div>
+              <div class="color-swatch" style="background-color: #00bbf9;"></div>
+              <div class="color-swatch" style="background-color: #00f5d4;"></div>
+              <figcaption>Berry Burst</figcaption>
             </figure>
             <figure class="palette">
               <div class="color-swatch" style="background-color: #F72585;"></div>
@@ -94,13 +138,55 @@
               <div class="color-swatch" style="background-color: #4361EE;"></div>
               <figcaption>Vivid Bloom</figcaption>
             </figure>
-            
-    </main> 
+          </main>
+          <main class="gallery" id="grid">
+            <figure class="palette">
+              <div class="color-swatch" style="background-color: #825F45;"></div>
+              <div class="color-swatch" style="background-color: #797D62;"></div>
+              <div class="color-swatch" style="background-color: #D08C60;"></div>
+              <div class="color-swatch" style="background-color: #FFCB69;"></div>
+              <div class="color-swatch" style="background-color: #997B66;"></div>
+              <figcaption>Toasty Cinnamon</figcaption>
+            </figure>
+            <figure class="palette">
+              <div class="color-swatch" style="background-color: #ffa86b;"></div>
+              <div class="color-swatch" style="background-color: #ffcb69;"></div>
+              <div class="color-swatch" style="background-color: #FFBA78;"></div>
+              <div class="color-swatch" style="background-color: #FFD991;"></div>
+              <div class="color-swatch" style="background-color: #FFE69E;"></div>
+              <figcaption>Sunny Citrus</figcaption>
+            </figure>
+            <figure class="palette">
+              <div class="color-swatch" style="background-color: #E5F392;"></div>
+              <div class="color-swatch" style="background-color: #E5E58D;"></div>
+              <div class="color-swatch" style="background-color: #E5D787;"></div>
+              <div class="color-swatch" style="background-color: #E4BA7C;"></div>
+              <div class="color-swatch" style="background-color: #E49E71;"></div>
+              <figcaption>Sorbet Splash</figcaption>
+            </figure>
+            <figure class="palette">
+              <div class="color-swatch" style="background-color: #88954d;"></div>
+              <div class="color-swatch" style="background-color: #a8bd54;"></div>
+              <div class="color-swatch" style="background-color: #d4dc6c;"></div>
+              <div class="color-swatch" style="background-color: #fee878;"></div>
+              <div class="color-swatch" style="background-color: #7c643e;"></div>
+              <figcaption>Sunbeam Hues</figcaption>
+            </figure>
+            <figure class="palette">
+              <div class="color-swatch" style="background-color: #d9ae94;"></div>
+              <div class="color-swatch" style="background-color: #f1dca7;"></div>
+              <div class="color-swatch" style="background-color: #ffcb69;"></div>
+              <div class="color-swatch" style="background-color: #d08c60;"></div>
+              <div class="color-swatch" style="background-color: #997b66;"></div>
+              <figcaption>Earth Glow</figcaption>
+            </figure>
+          </main>
+            </div>
         </article>
       </div>  
     <footer>
       <p>&copy; 2026 · Archivo 5</p>
     </footer>
-
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </body>
 </html>

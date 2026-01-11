@@ -202,6 +202,8 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  transform: translateX(306.58%);
+  margin: 1em;
 }
 
 .palette {
@@ -229,3 +231,4 @@ h3 {
     max-width: calc((100% - 1rem) / 2);
   }
 }
+
