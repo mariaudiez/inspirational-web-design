@@ -11,20 +11,6 @@
 }
 
 /* ================================
-   FOOTER
-================================ */
-footer {
-  padding: 3rem;
-  border-top: 1px solid #e5e5e5;
-  text-align: center;
-}
-
-footer p {
-  font-size: 0.8rem;
-  color: var(--color-muted);
-}
-
-/* ================================
    HEADER / NAV
 ================================ */
 
@@ -114,6 +100,7 @@ img {
 .about {
   max-width: var(--max-width);
   margin: 6rem auto;
+  margin-bottom: 0px;
   padding: 0 2rem;
 }
 
@@ -173,4 +160,14 @@ img {
 .gallery img:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ================================
+   FOOTER
+================================ */
+footer {
+  padding: 3rem;
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+  font-weight: 300;
 }
